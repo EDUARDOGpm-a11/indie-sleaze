@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indie sleaze</title>
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .nav a {
+            color: #333;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        .nav a:hover {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .post {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            padding: 20p
+            border-radius: 8px;
+        }
+        .post h2 {
+            margin-top: 0;
+        }
+        .post .meta {
+            color: #777;
+            font-size: 0.9em;
+            margin-bottom: 10px;
+        }
+        .footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        section{
+            padding: 50px;
+        }
+        .footer {
+                background-color: #2c3e50;
+                color: white;
+                padding: 15px;
+                text-align: center;
+            }
+            
+            .footer-content {
+                margin-bottom: 15px;
+            }
+            
+            .footer-links {
+                list-style: none;
+                padding: 15;
+            }
+            
+            .footer-links li {
+                display: inline;
+                margin: 0 15px;
+            }
+            
+            .footer-links a {
+                color: white;
+                text-decoration: none;
+                transition: color 0.3s;
+            }
+            
+            .footer-links a:hover {
+                color: #3498db;
+            }
+            
+            .social-media a {
+                margin: 0 10px;
+                color: white;
+                text-decoration: none;
+                transition: color 0.3s;
+            }
+            
+            .social-media a:hover {
+                color: #3498db;
+            }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+      <center><h1>Musica en el indie sleaze</h1></center>
+
+    </div>
+
+    <div class="nav">
+        <a href="index.html">Historia</a>
+        <a href="#"></a>
+        <a href="impacto.html">Impacto en la moda</a>
+        <a href="musica.html">Musica</a>
+    </div>
+    <section>
+    <div  class="main-content">
+        <div style="padding: 40px;" class="post">
+                                <center><h2> Musica</h2></center>
+            <!-- Imagen del Post -->
+           <center><img src=data:image/jpeg;base64,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
+            "alt="ejemplo" del indie sleaze></center>
+            <p>
+            El indie sleaze es un subgénero que emergió a finales de los 2000 y principios de los 2010. Se caracteriza por una mezcla de influencias del rock alternativo, la música electrónica y una estética retro y desenfadada.
+
+        Bandas y Artistas Clave
+        <OL>
+             <LI>LCD Soundsystem: Con su estilo ecléctico, fusionaron el dance-punk y la música electrónica.</LI>
+             <LI>The Drums: Sus melodías pegajosas y su estilo lo-fi capturaron la esencia de la juventud.</LI>
+             <LI>Girl Talk: Conocido por su mashup de géneros, encarnó la fiesta y la diversión del indie sleaze.</LI>
+             <LI>Sleigh Bells: Su sonido explosivo y crudo fue muy representativo de la época.</LI>
+             <LI>Phoenix: Aunque más pop, su estilo también resonó con la estética indie sleaze. </LI>
+        </OL>
+            </p>
+        </div>
+
+        <!-- Segundo Post -->
+        <div s" class="post">
+            <center> <h2>Musica en el Indie sleaze en 2024</h2></center>
+
+            <!-- Imagen del Post -->
+           <center><img src=https://preview.redd.it/the-dare-with-charli-xcx-and-billie-eilish-at-charlis-v0-2rn5fpug4qgd1.jpeg?width=640&crop=smart&auto=webp&s=f9065b235c425c04936fb13c3653e6581f08596d alt="charlie xcx y the dare"></center>
+            <p>
+                <center>  <h2>Influencia de Charli XCX en el Indie Sleaze</h2></center>
+   
+<ol>
+<li>Estilo Musical: Charli XCX combina pop, electrónica y elementos experimentales, evocando el sonido vibrante y despreocupado del indie sleaze. Sus producciones son modernas, pero resuenan con la energía de la era.</li>
+
+<li>Estética Visual: Su estilo se caracteriza por un uso audaz de colores, moda retro y referencias a la cultura pop de los 2000. Esto la alinea perfectamente con la estética del indie sleaze.</li>
+
+<li>Líricas y Temáticas: Charli aborda temas de libertad, amor y desinhibición, reflejando el espíritu de la juventud y la fiesta que define el indie sleaze.</li>
+
+<li>Colaboraciones: Ha trabajado con productores innovadores como A.G. Cook, que también han contribuido al sonido del género, creando una conexión entre la música contemporánea y las influencias del pasado.</li>
+</ol>
+<center><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHBNWV8ZHLAfEchV94yCtlt1tYVJk74WJNDg&s" alt=""></center>
+       <center><h2>  Influencia de The Dare en el Indie Sleaze  </h2></center>
+<ol>
+<li>Sonido y Estilo: The Dare fusiona rock y pop con toques electrónicos, capturando la esencia cruda y energética del indie sleaze. Sus melodías son pegajosas y evocadoras.</li>
+
+<li>Estética Retro: Su presentación visual incluye moda vintage y referencias estéticas que rinden homenaje a la era del indie sleaze, lo que atrae a fans de ese período.</li>
+
+<li>Líricas Despreocupadas: Las letras de The Dare reflejan la vida nocturna, la diversión y el desenfreno, temas centrales en la cultura indie sleaze.</li>
+
+<li>Revival del Género: Al abrazar y actualizar elementos del indie sleaze, The Dare ayuda a mantener vivo el interés por este estilo, atrayendo tanto a viejos fans como a nuevas audiencias.</li>
+</ol>
+<center><img src="data:image/jpeg;base64,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" alt=""></center>
+<center><h2>conclusion</h2></center>
+
+La influencia de Charli XCX y The Dare en el indie sleaze es significativa, ya que ambos artistas no solo rinden homenaje a la estética y el sonido de la época, sino que también lo reinventan para conectar con las generaciones actuales. Su música y su estilo visual ayudan a reavivar el interés por un género que sigue evolucionando. Si deseas más detalles específicos, ¡dímelo!
+            </p>
+
+
+
+        </section>
+
+
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <footer class="footer">
+            <div class="footer-content">
+                <p>&copy; 2024 Tu Empresa. Todos los derechos Eduardo gamaliel.</p>
+                
+            </div>
+        </footer>
+</html>
